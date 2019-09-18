@@ -2,8 +2,12 @@ title: Spring 5 Project
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+- title: Introduction
+  statement: markdowns/01-intro.md
+- title: Spring Boot Introduction
+  statement: markdowns/spring-boot-2/01-introduction.md
 - title: Spring Boot Structure
-  statement: markdowns/spring-boot-structure.md
+  statement: markdowns/spring-boot-2/02-spring-boot-structure.md
 projects:
   java:
     root: /java-project
