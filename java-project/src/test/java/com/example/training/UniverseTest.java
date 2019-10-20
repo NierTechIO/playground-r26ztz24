@@ -1,4 +1,4 @@
-package com.yourself;
+package com.example.training;
 
 import java.io.File;
 import java.io.FileNotFoundException;

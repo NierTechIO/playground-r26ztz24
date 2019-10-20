@@ -1,5 +1,5 @@
 // { autofold
-package com.yourself;
+package com.example.training;
 
 import java.util.Arrays;
 

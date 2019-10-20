@@ -1,5 +1,5 @@
 // { autofold
-package com.yourself;
+package com.example.training;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

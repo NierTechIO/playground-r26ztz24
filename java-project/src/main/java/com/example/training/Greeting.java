@@ -1,4 +1,4 @@
-package com.yourself;
+package com.example.training;
 
 public class Greeting {
 
