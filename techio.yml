@@ -7,8 +7,13 @@ plan:
     statement: markdowns/spring-boot-2/01-introduction.md
   - title: Spring Boot Structure
     statement: markdowns/spring-boot-2/02-spring-boot-structure.md
-  - title: Spring Boot REST
-    statement: markdowns/spring-boot-2/03-spring-boot-rest.md
+- title: Spring Boot REST
+  description: Spring Boot REST tutorials.
+  plan:
+  - title: Hello, REST!
+    statement: markdowns/spring-boot-rest/01-hello-rest.md
+  - title: Hello, GET parameter!
+    statement: markdowns/spring-boot-rest/02-hello-get-parameter.md
 projects:
   java:
     root: /java-project
