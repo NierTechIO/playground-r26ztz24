@@ -3,6 +3,7 @@ package com.example.training;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,7 +17,7 @@ public class GreetingController {
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
-    @RequestMapping(value = "/greeting", produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/greeting")
     public Greeting greeting(@RequestParam(value="name") String name) {
         return new Greeting(counter.incrementAndGet(),
                 "Hello, " + name + "!");//FIXME Use the string template to say "Hello, %name%"

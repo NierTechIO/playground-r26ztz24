@@ -79,7 +79,6 @@ public class GreetingControllerTest {
         mockMvc.perform(post("/greeting").param("name","World")
                 .contentType(contentType))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(contentType))
                 .andExpect(mvcResult ->{
                     String responseJson = mvcResult.getResponse().getContentAsString();
                     Greeting greeting = new ObjectMapper().readValue(responseJson,Greeting.class);
