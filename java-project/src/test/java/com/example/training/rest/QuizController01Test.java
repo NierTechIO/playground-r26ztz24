@@ -15,13 +15,12 @@ public class QuizController01Test extends ControllerMockMvcTestBase {
     @Test
     public void restQuiz01() throws Exception {
         mockMvc.perform(get("/restQuiz01")
-                .param("name", "World")
                 .contentType(contentType))
                 .andExpect(status().isOk())
                 .andExpect(mvcResult -> {
                     String responseJson = mvcResult.getResponse().getContentAsString();
                     RestQuiz01Response greeting = new ObjectMapper().readValue(responseJson, RestQuiz01Response.class);
-                    assertEquals("Hello, World!", greeting.getAnswer());
+                    assertEquals("Hello, REST!", greeting.getAnswer());
                 });
     }
 }
