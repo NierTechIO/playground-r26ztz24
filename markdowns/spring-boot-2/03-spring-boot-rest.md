@@ -40,6 +40,4 @@ public void api(@RequestParam("param1") String param1, @RequestParam("param2") S
 
 @[Complete the controller to say "Hello, %name%!"]({"stubs": ["src/main/java/com/example/training/rest/QuizController02.java", "src/main/java/com/example/training/to/RestQuiz01Response.java"], "command": "com.example.training.rest.QuizController02Test#restQuiz02"})
 
-<div style="padding: 15px; border: 1px solid transparent; border-color: transparent; margin-bottom: 20px; border-radius: 4px; color: #31708f; background-color: #d9edf7; border-color: #bce8f1;">
-要注意的是，如果定義了 GET 參數，但是 client 呼叫 REST API 的時候卻沒有帶上，對應的值，我們的 REST API 並不會被真的呼叫，而是會回傳 HTTP 400 回去。因為預設 GET 參數是 required 的。
-</div>
+> 要注意的是，如果定義了 GET 參數，但是 client 呼叫 REST API 的時候卻沒有帶上，對應的值，我們的 REST API 並不會被真的呼叫，而是會回傳 HTTP 400 回去。因為預設 GET 參數是 required 的。
