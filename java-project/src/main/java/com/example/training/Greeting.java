@@ -2,21 +2,11 @@ package com.example.training;
 
 public class Greeting {
 
+    private long id;
+    private String content;
+
     public Greeting() {
     }
-
-    public void setId(long id) {
-        this.id = id;
-    }
-
-    private  long id;
-    private  String content;
-
-
-
-
-
-
     public Greeting(long id, String content) {
         this.id = id;
         this.content = content;
@@ -26,12 +16,16 @@ public class Greeting {
         return id;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public String getContent() {
         return content;
     }
 
 
     public void setContent(String content) {
-       this.content=content;
+        this.content = content;
     }
 }
