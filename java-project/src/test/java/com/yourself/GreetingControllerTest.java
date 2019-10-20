@@ -18,6 +18,7 @@ import org.springframework.web.context.WebApplicationContext;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
@@ -36,9 +37,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WebAppConfiguration
 public class GreetingControllerTest {
 
-    private MediaType contentType = new MediaType(MediaType.APPLICATION_JSON.getType(),
-            MediaType.APPLICATION_JSON.getSubtype(),
-            Charset.forName("utf8"));
+    private MediaType contentType = MediaType.APPLICATION_JSON;
 
     private HttpMessageConverter mappingJackson2HttpMessageConverter;
 
