@@ -14,6 +14,8 @@ plan:
     statement: markdowns/spring-boot-rest/01-hello-rest.md
   - title: Hello, GET parameter!
     statement: markdowns/spring-boot-rest/02-hello-get-parameter.md
+  - title: Hello, Optional GET parameter!
+    statement: markdowns/spring-boot-rest/03-hello-optional-get-param.md
 projects:
   java:
     root: /java-project
