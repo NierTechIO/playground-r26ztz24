@@ -16,6 +16,8 @@ plan:
     statement: markdowns/spring-boot-rest/02-hello-get-parameter.md
   - title: Hello, Optional GET parameter!
     statement: markdowns/spring-boot-rest/03-hello-optional-get-param.md
+  - title: Hello, POST parameter!
+    statement: markdowns/spring-boot-rest/04-hello-post-param.md
 projects:
   java:
     root: /java-project
