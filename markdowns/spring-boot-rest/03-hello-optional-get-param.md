@@ -22,7 +22,7 @@ public void api(@RequestParam(name = "param1", required = false) String param1) 
 
 @[Complete the controller to say "Hello, %name%!" or "Hello, World!"]({"stubs": ["src/main/java/com/example/training/rest/QuizController03.java", "src/main/java/com/example/training/to/RestQuiz01Response.java"], "command": "com.example.training.rest.QuizController03Test#restQuiz03"})
 
-?[如果 URL 長的像 "/api?param1=" 的情況，Controller 裡面的 param1 會是什麼值呢？]
+?[如果 URL 長的像 "/restQuiz03?name=" 的情況，Controller 裡面的 name 會是什麼值呢？]
 - [ ] null
 - [X] 空字串
 - [ ] "Yoyo"
