@@ -2,11 +2,8 @@
 package com.example.training.rest;
 
 import com.example.training.to.RestQuiz01Response;
-import com.example.training.to.RestQuiz04Request;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 //}
 
