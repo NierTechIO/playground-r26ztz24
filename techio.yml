@@ -18,6 +18,8 @@ plan:
     statement: markdowns/spring-boot-rest/03-hello-optional-get-param.md
   - title: Hello, POST parameter!
     statement: markdowns/spring-boot-rest/04-hello-post-param.md
+  - title: Hello, Upload File!
+    statement: markdowns/spring-boot-rest/05-hello-upload-file.md
 projects:
   java:
     root: /java-project
