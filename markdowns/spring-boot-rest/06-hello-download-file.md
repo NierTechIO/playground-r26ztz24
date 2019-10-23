@@ -32,6 +32,8 @@ public ResponseEntity<byte[]> downloadPost(@RequestBody QueryTO queryTO) {
 }
 ```
 
+> 檔名如果有非 ASCII 字元會發生什麼事？特殊字元呢？試試看如何讓 Chrome 可以正確的上傳和下載中文檔名的檔案吧。
+
 下面的練習，請試著根據 TODO 的資訊完成對應的 download REST API。
 
 @[Complete the controller to Download File.]({"stubs": ["src/main/java/com/example/training/rest/QuizController06.java"], "command": "com.example.training.rest.QuizController06Test#restQuiz06"})
