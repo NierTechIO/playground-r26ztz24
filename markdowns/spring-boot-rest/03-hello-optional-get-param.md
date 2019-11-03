@@ -1,4 +1,4 @@
-# Hello, Optional GET parameter!
+# Optional GET parameters
 
 GET parameter 可以是可選的參數，例如用關鍵字搜尋，可以設定為如果不傳入任何關鍵字預設回傳全部的資料，用下面的做法可以達成
 

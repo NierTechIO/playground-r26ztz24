@@ -1,4 +1,4 @@
-# Hello, POST parameter!
+# POST parameters
 
 POST method 的 REST 創建方式和 GET 雷同。
 

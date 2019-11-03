@@ -1,4 +1,4 @@
-# Hello, Upload File!
+# Upload File
 
 REST Upload File 可以使用 Multipart 來傳輸檔案，使用的 method 則是 POST，因此寫法和 POST 很像。
 

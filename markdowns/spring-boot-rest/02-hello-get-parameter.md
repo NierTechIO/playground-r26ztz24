@@ -1,4 +1,4 @@
-# Hello, GET parameter!
+# GET parameters
 
 上面的練習中，我們成功的創建出一個 GET method 的 REST API，不過他沒有接入任何的參數，如果要讓 GET method 能夠接收參數，只需要修改 method 的參數就可以了。
 
