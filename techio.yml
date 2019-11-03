@@ -1,26 +1,19 @@
-title: Spring Boot 2 Tutorial
+title: REST with Spring Boot 2
 plan:
-- title: Spring Boot 2
-  description: Spring Boot 2 tutorials.
-  plan:
-  - title: Spring Boot Introduction
-    statement: markdowns/spring-boot-2/01-introduction.md
-  - title: Spring Boot Structure
-    statement: markdowns/spring-boot-2/02-spring-boot-structure.md
 - title: Spring Boot REST
   description: Spring Boot REST tutorials.
   plan:
   - title: Hello, REST!
     statement: markdowns/spring-boot-rest/01-hello-rest.md
-  - title: Hello, GET parameter!
+  - title: GET parameters
     statement: markdowns/spring-boot-rest/02-hello-get-parameter.md
-  - title: Hello, Optional GET parameter!
+  - title: Optional GET parameters
     statement: markdowns/spring-boot-rest/03-hello-optional-get-param.md
-  - title: Hello, POST parameter!
+  - title: POST parameters
     statement: markdowns/spring-boot-rest/04-hello-post-param.md
-  - title: Hello, Upload File!
+  - title: Upload File
     statement: markdowns/spring-boot-rest/05-hello-upload-file.md
-  - title: Hello, Download File!
+  - title: Download File
     statement: markdowns/spring-boot-rest/06-hello-download-file.md
 projects:
   java:
