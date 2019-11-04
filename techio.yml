@@ -21,6 +21,8 @@ plan:
         statement: markdowns/spring-boot-rest/08-global-exception.md
       - title: Cross Origin
         statement: markdowns/spring-boot-rest/09-cross-origin.md
+      - title: Swagger
+        statement: markdowns/spring-boot-rest/10-swagger.md
 projects:
   java:
     root: /java-project
