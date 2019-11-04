@@ -28,4 +28,4 @@ public class ExampleController07 {
 
 下面的練習，請試著根據 TODO 的資訊完成對應的 path variables 設定。
 
-@[Complete the path variables controller.]({"stubs": ["src/main/java/com/example/training/rest/QuizController07.java"], "command": "com.example.training.rest.QuizController07Test#restQuiz07"})
+@[Complete the path variables controller.]({"stubs": ["src/main/java/com/example/training/rest/QuizController07.java", "src/main/java/com/example/training/to/RestQuiz01Response.java"], "command": "com.example.training.rest.QuizController07Test#restQuiz07"})
