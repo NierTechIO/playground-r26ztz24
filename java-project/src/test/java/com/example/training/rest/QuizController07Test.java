@@ -14,7 +14,7 @@ public class QuizController07Test extends ControllerMockMvcTestBase {
 
     @Test
     public void restQuiz07() throws Exception {
-        mockMvc.perform(get("/restQuiz07/nier:Hello5566")
+        mockMvc.perform(get("/restQuiz07/nier-Hello5566")
                 .contentType(contentType))
                 .andExpect(status().isOk())
                 .andExpect(mvcResult -> {
@@ -22,5 +22,18 @@ public class QuizController07Test extends ControllerMockMvcTestBase {
                     RestQuiz01Response greeting = new ObjectMapper().readValue(responseJson, RestQuiz01Response.class);
                     assertEquals("nier says Hello5566", greeting.getAnswer());
                 });
+
+        mockMvc.perform(get("/restQuiz07/nier-Hello-5566")
+                .contentType(contentType))
+                .andExpect(status().isOk())
+                .andExpect(mvcResult -> {
+                    String responseJson = mvcResult.getResponse().getContentAsString();
+                    RestQuiz01Response greeting = new ObjectMapper().readValue(responseJson, RestQuiz01Response.class);
+                    assertEquals("nier says Hello-5566", greeting.getAnswer());
+                });
+
+        mockMvc.perform(get("/restQuiz07/Nier-Hello5566")
+                .contentType(contentType))
+                .andExpect(status().is(404));
     }
 }
