@@ -1,6 +1,6 @@
 # Cross Origin
 
-瀏覽器預設會檢查所有跨網域的 AJAX calls，例如你在 https://example.com 要呼叫一個 https://example2.com/api/myRest，瀏覽器會先發送一個 preflight request，用 OPTIONS method 送往該 REST API，並看他回傳的資訊是不是符合要求。
+瀏覽器預設會檢查所有跨網域的 AJAX calls，例如你在 https://example.com 要呼叫一個 https://example2.com/api/myRest ，瀏覽器會先發送一個 preflight request，用 OPTIONS method 送往該 REST API，並看他回傳的資訊是不是符合要求。
 
 最主要檢查的為下面兩項
 * Access-Control-Allow-Origin: 原本的網域有沒有落在這個值中，例如上面的範例，值可以是 "https://example.com" 或是 "*" 代表所有網域都可以
