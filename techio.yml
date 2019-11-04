@@ -1,22 +1,24 @@
 title: REST with Spring Boot 2
 plan:
-- title: Spring Boot REST
-  description: Spring Boot REST tutorials.
-  plan:
-  - title: Hello, REST!
-    statement: markdowns/spring-boot-rest/01-hello-rest.md
-  - title: GET parameters
-    statement: markdowns/spring-boot-rest/02-hello-get-parameter.md
-  - title: Optional GET parameters
-    statement: markdowns/spring-boot-rest/03-hello-optional-get-param.md
-  - title: POST parameters
-    statement: markdowns/spring-boot-rest/04-hello-post-param.md
-  - title: Upload File
-    statement: markdowns/spring-boot-rest/05-hello-upload-file.md
-  - title: Download File
-    statement: markdowns/spring-boot-rest/06-hello-download-file.md
-  - title: Path variables
-    statement: markdowns/spring-boot-rest/07-hello-path-variables.md
+  - title: Spring Boot REST
+    description: Spring Boot REST tutorials.
+    plan:
+      - title: Hello, REST!
+        statement: markdowns/spring-boot-rest/01-hello-rest.md
+      - title: GET parameters
+        statement: markdowns/spring-boot-rest/02-hello-get-parameter.md
+      - title: Optional GET parameters
+        statement: markdowns/spring-boot-rest/03-hello-optional-get-param.md
+      - title: POST parameters
+        statement: markdowns/spring-boot-rest/04-hello-post-param.md
+      - title: Upload File
+        statement: markdowns/spring-boot-rest/05-hello-upload-file.md
+      - title: Download File
+        statement: markdowns/spring-boot-rest/06-hello-download-file.md
+      - title: Path variables
+        statement: markdowns/spring-boot-rest/07-hello-path-variables.md
+      - title: Global Exception
+        statement: markdowns/spring-boot-rest/08-global-exception.md
 projects:
   java:
     root: /java-project
