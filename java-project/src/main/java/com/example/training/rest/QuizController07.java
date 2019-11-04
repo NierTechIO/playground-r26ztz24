@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class QuizController07 {
-    /* TODO: update value to accept "/restQuiz07/{name}:{text}" format.
+    /* TODO: update value to accept "/restQuiz07/{name}-{text}" format.
         name format is a-z only, without upper cases and numbers.
         text can contains any characters
         return RestQuiz01Response with answer "{name} says {text}"
